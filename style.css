@@ -5,7 +5,6 @@ header {
 }
 
 header h2{
-    padding-left: 50px; /* Adjust as needed */
     font-size: 40px;
     font-family: "Open-Sans",sans-serif;
 }
@@ -25,6 +24,9 @@ ul {
 
 #devimg img {
     height: 65%;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-right: 20px;
 }
 
 ul button {
@@ -45,7 +47,7 @@ body {
 
 button img {
     height: 20px;
-    padding-top: 10px;
+
 }
 
 .hero {
@@ -54,6 +56,35 @@ button img {
 }
 
 .herotext {
-    border: 2px solid black;
     margin-right: 400px;
+}
+
+.herotext button {
+    display: flex;
+    justify-items: center;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.herotext p {
+    color: rgba(0,0,0,0.7);
+}
+
+.heropic img {
+    margin-right: 100px;
+    margin-top: 16px;
+}
+
+.main-content {
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72.7vh;
 }
