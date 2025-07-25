@@ -1,90 +1,58 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-}
-
-header h2{
-    font-size: 40px;
-    font-family: "Open-Sans",sans-serif;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    padding-right: 200px; /* Ajust as needed */
-    font-size: 20px;
-    font-family: "Open-Sans",sans-serif;
-}
-
-.upper {
-    display: flex;
-}
-
-#devimg img {
-    height: 65%;
-    padding-left: 30px;
-    padding-top: 20px;
-    margin-right: 20px;
-}
-
-ul button {
-    background-color: #FD6E0A;
-    color: white;
-    height: 35px;
-    width: 90px;
-    font-size: 18px;
-    border: none;
-    border-radius: 2px;
-    margin-top: 24px;
-}
-
-
 body {
     font-family: "Open-Sans",sans-serif;
 }
 
-button img {
-    height: 20px;
-
-}
-
-.hero {
+.top-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 72vh;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.herotext {
-    margin-right: 400px;
-}
-
-.herotext button {
+button {
+    padding: 10px 15px;
     display: flex;
-    justify-items: center;
-    border-radius: 3px;
-    font-size: 15px;
-    padding: 10px;
 }
 
 .button-group {
     display: flex;
-    gap: 16px;
-    margin-top: 16px;
+    gap: 20px;
 }
 
-.herotext p {
-    color: rgba(0,0,0,0.7);
+button img {
+    height: 20px;
 }
 
-.heropic img {
-    margin-right: 100px;
-    margin-top: 16px;
+.right-block img {
+    height: 333px;
 }
 
-.main-content {
-    background-image: url(images/header_bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 72.7vh;
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: -50px;
+    padding-top: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.hero-text {
+    margin-top: -200px;
+    margin-right: 400px;
+}
+
+.left-block img {
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.right-block img {
+    height: 435px;
+    margin-top: 70px;
 }
