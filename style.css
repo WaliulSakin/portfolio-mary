@@ -56,3 +56,47 @@ li {
     height: 435px;
     margin-top: 70px;
 }
+
+.secblockbttm {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -14px;
+}
+
+.secblockbttm p {
+    text-align: center;
+}
+
+.second-block h3 {
+     text-align: center;
+     font-size: 25px;
+}
+
+.second-block {
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 20px;
+    background-color:rgba(255, 255, 255, 1);
+    margin-left: 80px;
+}
+
+.outer-box {
+    background-color: rgba(255, 248, 243, 1);
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+.third-block {
+    text-align: center;
+}
+
+.third-block p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 20px 100px;
+}
