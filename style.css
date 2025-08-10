@@ -209,3 +209,26 @@ li {
 .summary h5 {
     color: rgba(0,0,0,0.6);
 }
+
+.footer {
+    display: flex;
+    justify-items: center;
+    background: rgba(255, 248, 243, 0.77);
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.big-input::placeholder {
+    padding-bottom: 20px;
+}
+
+.big-input {
+    vertical-align: top;
+}
+
+.left-footer {
+    padding-left: 100px;
+    width: 40%;
+    padding-right: 50px;
+}
